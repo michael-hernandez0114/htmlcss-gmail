@@ -1,0 +1,107 @@
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body {
+    background-image: url('http://media.idownloadblog.com/wp-content/uploads/2015/06/sea-water-ocean-sky-sunny-nature-9-wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: left;
+    margin: 0 auto;
+    width: 700px;
+}
+
+.image {
+    border-bottom: 2px solid black;
+}
+
+img {
+    width: 100px;
+    vertical-align: middle;
+
+}
+
+.image-text {
+    text-align: left;
+    width: 300px;
+    display: inline-block;
+}
+
+.searchSection {
+    padding-top: 10px;
+}
+
+#searchBox {
+    width: 100px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+
+#press {
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    width: 50px;
+    height:15px;
+}
+
+.inbox-count {
+    border-bottom: 2px solid black;
+}
+
+.text-circle {
+    border-radius: 50%;
+    display: inline-block;
+    padding: 15px;
+    background-color: red;
+}
+
+.inbox {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+
+}
+
+.email1 {
+    border: 1px solid black;
+    background-color: lightgray;
+    margin-bottom: 2px;
+}
+
+.email2 {
+    border: 1px solid black;
+    background-color: white;
+}
+
+.email1, .email2 {
+    margin-bottom: 2px;
+}
+
+.subject:before {
+    content: "\02605";
+}
+
+.subject::after {
+    content: " - ";
+}
+
+.email-content {
+    font-style: italic;
+}
+
+.footer1 {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.footer1::before {
+    content: "\02600";
+}
+
+.footer2::before {
+    content: " - ";
+}
